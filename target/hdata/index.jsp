@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Counter - Coming Soon Theme</title>
+    <title>Finaxys</title>
 
     <!-- Bootstrap core CSS -->
     <link href="resources/css/bootstrap.css" rel="stylesheet">
@@ -35,7 +35,7 @@
         <div class="container">
             <header>
                 <!-- HEADLINE -->
-                <h1 data-animated="GoIn"><b>COUNTER</b> site is coming soon...</h1>
+                <h1 data-animated="GoIn"><b>Finaxys</b> Workshop</h1>
             </header>
             <!-- START TIMER -->
             <div id="timer" data-animated="FadeIn">
@@ -47,7 +47,7 @@
             </div>
             <!-- END TIMER -->
             <div class="col-lg-4 col-lg-offset-4 mt centered">
-            	<h4>LET ME KNOW WHEN YOU LAUNCH</h4>
+            	<h4></h4>
 				<form class="form-inline" role="form">
 				  <div class="form-group">
 				    <label class="sr-only" for="exampleInputEmail2">Email address</label>
