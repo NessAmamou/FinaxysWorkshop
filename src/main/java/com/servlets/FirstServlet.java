@@ -17,7 +17,7 @@ public class FirstServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter() ;
 		out.println("<html>") ;
-		out.println("<body>") 
+		out.println("<body>") ;
 		out.println("<h1>Test4</h1>") ;
 		out.println("</body>") ;
 		out.println("</html>") ;   
