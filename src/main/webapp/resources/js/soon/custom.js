@@ -15,6 +15,10 @@ COMMING SOON PAGE
     var hours = $('#hours');
     var minutes = $('#minutes');
     var seconds = $('#seconds');
+    var java = $('#java');
+    var ci = $('#ci');
+    var test = $('#test');
+    var build = $('#build');
     
     setDate();
     function setDate(){
@@ -25,6 +29,10 @@ COMMING SOON PAGE
             minutes.html('<h1>0</h1><p>Minute</p>');
             seconds.html('<h1>0</h1><p>Second</p>');
             message.html('OUR SITE IS NOT READY YET...');
+            java.html('<h1>1</h1><p>Development</p><br>');
+            ci.html('<h1>4</h1><p>Integration</p><br>');
+            test.html('<h1>3</h1><p>Test</p><br>');
+            build.html('<h1>2</h1><p>Build</p><br>');
         }
         else{
             var s = -now.getTimezoneOffset()*60 + (launch.getTime() - now.getTime())/1000;
@@ -44,6 +52,12 @@ COMMING SOON PAGE
             setTimeout(setDate, 1000);
 
             message.html('OUR SITE IS NOT READY YET, BUT WE ARE COMING SOON');
+            
+            java.html('<p>Java Basics</p>');
+            
+            ci.html('<h1>4</h1><p>Continuous Integration</p>');
+            test.html('<h1>2</h1><p>Unit Tests</p>');
+            build.html('<h1>3</h1><p>Maven Build</p>');
         }
     }
 })(jQuery);

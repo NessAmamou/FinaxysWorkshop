@@ -41,9 +41,9 @@
 		</header>
 		<br><br><br><br>
 		<!-- START TIMER -->
-			<a href="addCV.jsp"><div class="timer_box"><h4>Add CV<br><br></h4></div></a>
-			<a href="listCV.jsp"><div class="timer_box"><h4>List CVs<br><br></h4></div></a>
-			<a href="/hdata"><div class="timer_box"><h4>Quit<br><br></h4></div></a>
+			<a href="/addCV.jsp"><div class="timer_box"><h4>Add CV<br><br></h4></div></a>
+			<a href="/listCV.jsp"><div class="timer_box"><h4>List CVs<br><br></h4></div></a>
+			<a href="/"><div class="timer_box"><h4>Quit<br><br></h4></div></a>
 			
 			
 		<!-- END TIMER -->

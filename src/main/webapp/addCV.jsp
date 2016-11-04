@@ -30,26 +30,44 @@
 	<!-- START HEADER -->
 	<section id="header">
 	<div class="container">
-		<header> <!-- HEADLINE -->
-		<h1 data-animated="GoIn">
-			<%
-				String mail = (String) request.getAttribute("mail");
-			%>
-			<b>Welcome</b>
-			<%=mail%>
-		</h1>
-		</header>
-		<br><br><br><br>
-		<!-- START TIMER -->
-			<a href="addCV.jsp"><div class="timer_box"><h4>Add CV<br><br></h4></div></a>
-			<a href="listCV.jsp"><div class="timer_box"><h4>List CVs<br><br></h4></div></a>
-			<a href="/hdata"><div class="timer_box"><h4>Quit<br><br></h4></div></a>
-			
-			
-		<!-- END TIMER -->
+
+		<br>
+		<br>
+		<br>
+		<br>
+
 		<div class="col-lg-4 col-lg-offset-4 mt centered">
 			<h4></h4>
-		
+			<FORM Method="POST" Action="addCV">
+
+				<div class="form-group">
+					<input type="text" class="form-control" id="name" name="name"
+						placeholder="Name">
+				</div>
+				<br>
+				
+
+				<div class="form-group">
+					<textarea class="form-control" id="education"
+						name="education" placeholder="Education"></textarea>
+				</div>
+				<br>
+			
+				<div class="form-group">
+					<textarea class="form-control" id="experience"
+						name="experience" placeholder="Experiences"></textarea>
+				</div>
+				<br>
+
+				<div class="form-group">
+					<textarea class="form-control" id="skills" name="skills"
+						placeholder="Skills"></textarea>
+				</div>
+				<br>
+				
+				<button type="submit" class="btn btn-info">Submit</button>
+				
+			</FORM>
 		</div>
 
 	</div>
@@ -61,8 +79,8 @@
 			<li data-transition="slideleft" data-slotamount="1"
 				data-thumb="resources/img/slider/6.jpg"><img
 				src="resources/img/slider/6.jpg"></li>
-		
-			
+
+
 		</ul>
 	</div>
 	<!-- END SLIDER --> </section>
